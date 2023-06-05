@@ -1,0 +1,25 @@
+  509  mkdir 20230605-JulianCallejas
+  510  cd 20230605-JulianCallejas/
+  511  git init
+  512  git branch -a
+  513  git checkout master
+  514  git branch -m main
+  515  git symbolic-ref HEAD refs/heads/main
+  516  git remote add origin git@github.com:JulianCallejas/20230605-JulianCallejas.git
+  517  touch comandos.txt main.js index.html
+  518  git add .
+  519  git commit -m "commit 01 de Julian Callejas"
+  520  git push origin main
+  521  git branch feature
+  522  git checkout feature
+  523  mkdir Hardware Software SeguridadInformatica
+  524  touch Hardware/resumen.txt
+  525  touch Software/resumen.txt
+  526  touch SeguridadInformatica/resumen.txt
+  527  git add .
+  528  git commit -m "commit 02 de JulianCallejas"
+  529  git push origin feature
+  530  git checkout main
+  531  mv main.js resumenHardware.txt
+  532  mv index.html resumenSoftware.txt
+  533  history 50

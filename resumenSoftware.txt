@@ -1,0 +1,5 @@
+3 Ejemplos de software:
+
+1. Sistemas operativos
+2. Procesadores de palabra (MS Word)
+3. Hoja de cálculo (MS Excel)
